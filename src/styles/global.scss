@@ -1,0 +1,56 @@
+// element-ui cover
+
+.el-input__prefix {
+  height: 40px;
+}
+
+// 处理弹窗自定义样式
+.dialog-modal{
+  .title-name{padding: 10px 0 10px 20px;}
+  .el-dialog__header{padding: 0;
+    .el-dialog__headerbtn{top:13px;}
+  }
+}
+
+// 详情list
+.desc-list {
+  padding: 10px 0 0;
+
+  .desc-item {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 23px;
+    color: #606266;
+    padding-bottom: 15px;
+
+    .label {
+      color: #99a9bf;
+      //padding-right: 4px;
+    }
+
+    .content {
+      text-overflow: ellipsis;
+      white-space: normal;
+      word-break: break-all;
+    }
+  }
+}
+
+.badge-item {
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+
+  /deep/ .el-badge__content.is-dot {
+    display: inline-block;
+    top: -8px;
+  }
+}
+
+.el-table {
+  .el-table__header-wrapper {
+    .el-table__header thead tr th{
+      background: #f9fafc;
+    }
+  }
+}
